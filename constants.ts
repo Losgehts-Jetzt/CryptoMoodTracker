@@ -1,0 +1,26 @@
+import { Coin } from './types';
+
+export const COINS: Coin[] = [
+  { id: 'bitcoin', name: 'Bitcoin', symbol: 'BTC' },
+  { id: 'ethereum', name: 'Ethereum', symbol: 'ETH' },
+  { id: 'tether', name: 'Tether', symbol: 'USDT' },
+  { id: 'binancecoin', name: 'BNB', symbol: 'BNB' },
+  { id: 'solana', name: 'Solana', symbol: 'SOL' },
+  { id: 'usd-coin', name: 'USD Coin', symbol: 'USDC' },
+  { id: 'ripple', name: 'XRP', symbol: 'XRP' },
+  { id: 'dogecoin', name: 'Dogecoin', symbol: 'DOGE' },
+  { id: 'toncoin', name: 'Toncoin', symbol: 'TON' },
+  { id: 'cardano', name: 'Cardano', symbol: 'ADA' },
+  { id: 'avalanche-2', name: 'Avalanche', symbol: 'AVAX' },
+  { id: 'shiba-inu', name: 'Shiba Inu', symbol: 'SHIB' },
+  { id: 'tron', name: 'TRON', symbol: 'TRX' },
+  { id: 'polkadot', name: 'Polkadot', symbol: 'DOT' },
+  { id: 'chainlink', name: 'Chainlink', symbol: 'LINK' },
+  { id: 'polygon', name: 'Polygon', symbol: 'MATIC' },
+  { id: 'near', name: 'NEAR Protocol', symbol: 'NEAR' },
+  { id: 'litecoin', name: 'Litecoin', symbol: 'LTC' },
+  { id: 'uniswap', name: 'Uniswap', symbol: 'UNI' },
+  { id: 'cosmos', name: 'Cosmos', symbol: 'ATOM' },
+  { id: 'aptos', name: 'Aptos', symbol: 'APT' },
+  { id: 'render-token', name: 'Render', symbol: 'RNDR' },
+];

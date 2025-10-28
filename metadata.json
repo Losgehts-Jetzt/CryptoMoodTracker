@@ -1,0 +1,5 @@
+{
+  "name": "Crypto Mood Tracker",
+  "description": "An application to determine the overall mood of selected cryptocurrency coins based on the latest news and social media sentiment from websites, Twitter, and Reddit.",
+  "requestFramePermissions": []
+}
