@@ -34,6 +34,13 @@ const App: React.FC = () => {
     });
   }, [error]);
 
+  const handleClearAll = useCallback(() => {
+    setSelectedCoins([]);
+    if (error === "You can only select a maximum of 2 coins.") {
+        setError(null);
+    }
+  }, [error]);
+
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(event.target.value);
   };
@@ -93,6 +100,7 @@ const App: React.FC = () => {
             onCoinSelect={handleCoinSelect}
             searchQuery={searchQuery}
             onSearchChange={handleSearchChange}
+            onClearAll={handleClearAll}
           />
           
           <div className="mt-8 text-center">
